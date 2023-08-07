@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="games-styles.css">
+  <title>NBA Games</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Players</a></li>
+        <li><a href="games.html">Games</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>NBA Games</h1>
+    <div id="date-range">
+      <label for="start-date">Start Date:</label>
+      <input type="date" id="start-date" name="start-date">
+      <label for="end-date">End Date:</label>
+      <input type="date" id="end-date" name="end-date">
+      <button id="filter-button">Filter</button>
+    </div>
+    <div id="games-container">
+      <!-- Games cards will be dynamically added here -->
+    </div>
+    <div id="games-pagination">
+      <!-- Pagination buttons will be dynamically added here -->
+    </div>
+  </main>
+  <script src="games-script.js"></script>
+</body>
+</html>

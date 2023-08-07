@@ -1,0 +1,54 @@
+header {
+    background-color: #333;
+    color:white;
+    padding:10px
+}
+
+nav ul {
+    list-style:none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+#search-container {
+    margin-bottom: 20px;
+}
+
+#players-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.player-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width:30%
+}
+
+#pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border:1px solid blue
+}
+
+.pagination-button {
+    background-color: #333;
+    color:white;
+    border:none;
+    padding: 8px 15px;
+    margin: 0 5px;
+    cursor:pointer
+}
+
+.pagination-button.active {
+    background-color: #555;
+}
